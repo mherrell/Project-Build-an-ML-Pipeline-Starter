@@ -91,7 +91,7 @@ if __name__ == "__main__":
         type = float,
         help = "Maximum house price to be considered",
         required = True
-
+    )
 
     args = parser.parse_args()
 
