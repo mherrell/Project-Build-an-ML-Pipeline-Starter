@@ -34,7 +34,7 @@ def go(args):
     df = df[idx].copy()
     # Save the cleaned file
     df.to_csv('clean_sample.csv',index=False)
-
+ 
     # log the new data.
     artifact = wandb.Artifact(
      args.output_artifact,
